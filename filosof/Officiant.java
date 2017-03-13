@@ -7,10 +7,6 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Semaphore;
 
-/*
- * Created by WhatNick on 28.08.2016.
- */
-
 class Officiant {
     private static List<Thread> listOfFilosofes;
 
@@ -81,7 +77,7 @@ class Officiant {
     }
 
     static void toInterruptAllFilosofes() throws InterruptedException {
-        Thread.sleep(10000);
+        Thread.sleep(1000);
         System.out.println();
         for (Thread filosof : listOfFilosofes) {
             filosof.interrupt();

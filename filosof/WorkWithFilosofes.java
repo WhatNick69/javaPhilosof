@@ -2,10 +2,6 @@ package filosof;
 
 import java.util.concurrent.Semaphore;
 
-/*
- * Created by WhatNick on 28.08.2016.
- */
-
 public class WorkWithFilosofes {
     private static Officiant officiant = new Officiant();
 

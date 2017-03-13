@@ -4,10 +4,6 @@ import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Semaphore;
 
-/*
- * Created by WhatNick on 27.08.2016.
- */
-
 class StarvingFilosof extends Thread {
     private volatile static Semaphore semaphore;
     private volatile static int countOfForks = 0;
