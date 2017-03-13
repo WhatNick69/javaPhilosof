@@ -94,8 +94,8 @@ class Officiant {
     }
 
     static void callFilosofesCondition() throws InterruptedException {
-        Thread.sleep(1000);
         System.out.println();
+        Thread.sleep(1000);
         for (Thread filosof : listOfFilosofes) {
             StarvingFilosof sF = (StarvingFilosof)filosof;
             sF.getCondition();
